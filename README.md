@@ -7,7 +7,8 @@ This Report summarizes the development and implementation of a drug recommendati
 ## Approach
 The drug recommendation system utilizes NLP, ML, and collaborative filtering techniques to generate recommendations. The primary steps in the development of this system include:
 
-### Data Collection: The dataset used for training consists of drug names, their associated conditions, user ratings, and drug descriptions. Source : https://www.kaggle.com/datasets/jessicali9530/kuc-hackathon-winter-2018/data
+### Data Collection: 
+The dataset used for training consists of drug names, their associated conditions, user ratings, and drug descriptions. Source : https://www.kaggle.com/datasets/jessicali9530/kuc-hackathon-winter-2018/data
 
 
 ### Model Selection: The system utilizes Sentence-BERT (a variant of BERT optimized for sentence embeddings) to generate embeddings for drug names and condition descriptions. These embeddings allow the system to compute semantic similarities between user input and drug descriptions, forming the basis for content-based recommendations.
